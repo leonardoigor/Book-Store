@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.d-flex button {
+  margin: 1.5em 0.6em;
+  padding: 0.5em 2.4em;
+}
+
+.d-flex table {
+  margin: 1em 10em;
+}
+table .btnedit svg {
+  color: lightsalmon;
+  cursor: pointer;
+}
+.success {
+  background: rgba(50, 255, 0, 1);
+  text-align: center;
+  padding: 1em;
+  color: floralwhite;
+  font-weight: 800;
+  animation: nones 10s forwards;
+  position: fixed;
+  width: 100%;
+}
+.error {
+  background: rgb(255, 94, 0);
+  text-align: center;
+  padding: 1em;
+  color: floralwhite;
+  font-weight: 800;
+  animation: nones 10s forwards;
+  position: fixed;
+  width: 100%;
+}
+.seleted {
+  border: 3px solid green;
+}
+@keyframes nones {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
